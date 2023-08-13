@@ -1,7 +1,8 @@
-# Pyro
+# Pyro (Ver2)
 Pyro is a self-made programming language using Python. It's just for fun and for practising.<br>
 Only a few features are supported currently.<br>
-More features will be added in the future. (Maybe)
+More features will be added in the future. (Maybe) <br>
+
 #### Assigning variable (INT)
 Syntax: Either ```INT x``` or ```x = 5``` can be used.
 Actaully ```INT x``` has no effects.
