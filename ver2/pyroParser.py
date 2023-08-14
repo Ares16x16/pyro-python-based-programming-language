@@ -38,9 +38,7 @@ class Parser:
         return AssignmentStatement(identifier, value)
     
     def parse_print_statement(self):
-        identifier_token = self.current_token()
-        self.next_token()
-        
+        identifier_token = self.current_token()   
         identifier = identifier_token.value
         return PrintStatement(identifier)
     
