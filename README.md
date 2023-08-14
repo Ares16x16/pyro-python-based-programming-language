@@ -9,12 +9,18 @@ Actaully ```INT x``` has no effects.
 #### Printing value of variable
 Syntax: ```PRINT x```
 The value of the variable will be printed.
-Now only support one printing statement.
 ## Example Code: test.pyro
-The following code is used in the test.pyro, which gives the result of ```2```
+The following code is used as an example :
 ```
 INT 6
 6 = 5
 6 = 2
 PRINT 6
+6 = 3
+PRINT 6
+```
+which gives the result of 
+```
+2
+3
 ```
